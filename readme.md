@@ -1,4 +1,4 @@
-This is a tutorial on how to use FastAPI to deploy ML models.
+#This is a tutorial on how to use FastAPI to deploy ML models.#
 In our case, we have used XGBRegressor for making house price predictions and the data is given as df_train and df_test.
 XGB_model.py contains the code to train the model and store it in a pickle file using joblib python package.
 FastAPI_Practice.py contains the code to setup the FastAPI functionality and the code to start a local server that can be used for API calls.
